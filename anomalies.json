@@ -1,0 +1,424 @@
+[
+  {
+    "row_id": 1,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Fix or remove invalid IP address."
+  },
+  {
+    "row_id": 1,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 1,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 2,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Fix or remove invalid IP address."
+  },
+  {
+    "row_id": 2,
+    "fields": [
+      "site"
+    ],
+    "issue_type": "unknown_site",
+    "recommended_action": "Map to a canonical site code (e.g., SJC, NYC)."
+  },
+  {
+    "row_id": 2,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 3,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Fix or remove invalid IP address."
+  },
+  {
+    "row_id": 3,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 3,
+    "fields": [
+      "site"
+    ],
+    "issue_type": "unknown_site",
+    "recommended_action": "Map to a canonical site code (e.g., SJC, NYC)."
+  },
+  {
+    "row_id": 4,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Fix or remove invalid IP address."
+  },
+  {
+    "row_id": 4,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 4,
+    "fields": [
+      "site"
+    ],
+    "issue_type": "unknown_site",
+    "recommended_action": "Map to a canonical site code (e.g., SJC, NYC)."
+  },
+  {
+    "row_id": 4,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 5,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Fix or remove invalid IP address."
+  },
+  {
+    "row_id": 5,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 5,
+    "fields": [
+      "site"
+    ],
+    "issue_type": "unknown_site",
+    "recommended_action": "Map to a canonical site code (e.g., SJC, NYC)."
+  },
+  {
+    "row_id": 5,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 6,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 6,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "invalid_mac",
+    "recommended_action": "Provide 12 hex digits; use colon notation."
+  },
+  {
+    "row_id": 6,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 7,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 7,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "invalid_mac",
+    "recommended_action": "Provide 12 hex digits; use colon notation."
+  },
+  {
+    "row_id": 7,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 8,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 8,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "invalid_mac",
+    "recommended_action": "Provide 12 hex digits; use colon notation."
+  },
+  {
+    "row_id": 9,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Fix or remove invalid IP address."
+  },
+  {
+    "row_id": 9,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 9,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "invalid_mac",
+    "recommended_action": "Provide 12 hex digits; use colon notation."
+  },
+  {
+    "row_id": 9,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 10,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Fix or remove invalid IP address."
+  },
+  {
+    "row_id": 10,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 10,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "invalid_mac",
+    "recommended_action": "Provide 12 hex digits; use colon notation."
+  },
+  {
+    "row_id": 10,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 11,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 11,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "invalid_mac",
+    "recommended_action": "Provide 12 hex digits; use colon notation."
+  },
+  {
+    "row_id": 11,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 12,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 12,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "invalid_mac",
+    "recommended_action": "Provide 12 hex digits; use colon notation."
+  },
+  {
+    "row_id": 12,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 13,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 13,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "invalid_mac",
+    "recommended_action": "Provide 12 hex digits; use colon notation."
+  },
+  {
+    "row_id": 13,
+    "fields": [
+      "site"
+    ],
+    "issue_type": "unknown_site",
+    "recommended_action": "Map to a canonical site code (e.g., SJC, NYC)."
+  },
+  {
+    "row_id": 13,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 14,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Fix or remove invalid IP address."
+  },
+  {
+    "row_id": 14,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 14,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "invalid_mac",
+    "recommended_action": "Provide 12 hex digits; use colon notation."
+  },
+  {
+    "row_id": 14,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  },
+  {
+    "row_id": 15,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Fix or remove invalid IP address."
+  },
+  {
+    "row_id": 15,
+    "fields": [
+      "hostname",
+      "fqdn"
+    ],
+    "issue_type": "mismatch",
+    "recommended_action": "Make FQDN start with the hostname label."
+  },
+  {
+    "row_id": 15,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "invalid_mac",
+    "recommended_action": "Provide 12 hex digits; use colon notation."
+  },
+  {
+    "row_id": 15,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review classification; add better hints (e.g., role, model)."
+  }
+]
