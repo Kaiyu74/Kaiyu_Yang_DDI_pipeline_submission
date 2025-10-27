@@ -1,13 +1,11 @@
 # LLM Prompts Log
 
-- This file logs all prompts from this run.
-- Temperature: **0.2**; responses are formatted in **JSON**.
-
-
+- This file logs all prompts from my run with LLM option enabled. 
+- gpt model temperature is set to  **0.2** and responses are formatted to **JSON**.
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:13.788254Z
+- timestamp: 2025-10-27T22:20:51.089244Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -29,13 +27,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "server",
+  "confidence": 0.9
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:13.912607Z
+- timestamp: 2025-10-27T22:20:52.241821Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -57,13 +58,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "server",
+  "confidence": 0.8
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:14.045331Z
+- timestamp: 2025-10-27T22:20:53.285790Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -85,13 +89,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "printer",
+  "confidence": 0.9
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:14.192828Z
+- timestamp: 2025-10-27T22:20:54.266923Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -113,13 +120,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "camera",
+  "confidence": 0.9
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:14.395415Z
+- timestamp: 2025-10-27T22:20:57.060515Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -141,13 +151,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "unknown",
+  "confidence": 0.9
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:14.546298Z
+- timestamp: 2025-10-27T22:20:57.745854Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -169,13 +182,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "unknown",
+  "confidence": 0.9
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:14.706880Z
+- timestamp: 2025-10-27T22:20:59.181744Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -197,13 +213,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "unknown",
+  "confidence": 0.9
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:14.856915Z
+- timestamp: 2025-10-27T22:21:04.349472Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -225,13 +244,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "unknown",
+  "confidence": 0.9
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:15.015286Z
+- timestamp: 2025-10-27T22:21:05.750010Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -253,13 +275,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "unknown",
+  "confidence": 0.9
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:15.141075Z
+- timestamp: 2025-10-27T22:21:06.756557Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -281,13 +306,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "unknown",
+  "confidence": 0.9
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:15.301480Z
+- timestamp: 2025-10-27T22:21:07.395772Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -309,13 +337,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "router",
+  "confidence": 0.9
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:15.498691Z
+- timestamp: 2025-10-27T22:21:08.367544Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -337,13 +368,16 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "server",
+  "confidence": 0.9
+}
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T21:07:15.603861Z
+- timestamp: 2025-10-27T22:21:09.419601Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -365,7 +399,10 @@ Respond in strict JSON only.
 **Response**
 
 ```
-{"note": "no response (offline or LLM disabled)"}
+{
+  "device_type": "unknown",
+  "confidence": 0.9
+}
 ```
 
 ---
