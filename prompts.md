@@ -1,11 +1,12 @@
 # LLM Prompts Log
 
-- This file logs all prompts from my run with LLM option enabled. 
-- gpt model temperature is set to  **0.2** and responses are formatted to **JSON**.
+All prompts below are issued only when deterministic rules are weak. Temperature is **0.2** and responses are constrained to **JSON** for reproducibility.
+If the environment lacks an API key or --use-llm is not provided, no LLM prompts are logged and heuristics are used instead.
+
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:20:51.089244Z
+- timestamp: 2025-10-27T22:49:37.722772Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -36,7 +37,7 @@ Respond in strict JSON only.
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:20:52.241821Z
+- timestamp: 2025-10-27T22:49:38.259753Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -60,14 +61,14 @@ Respond in strict JSON only.
 ```
 {
   "device_type": "server",
-  "confidence": 0.8
+  "confidence": 0.7
 }
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:20:53.285790Z
+- timestamp: 2025-10-27T22:49:38.832520Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -91,14 +92,14 @@ Respond in strict JSON only.
 ```
 {
   "device_type": "printer",
-  "confidence": 0.9
+  "confidence": 1.0
 }
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:20:54.266923Z
+- timestamp: 2025-10-27T22:49:39.466711Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -121,7 +122,7 @@ Respond in strict JSON only.
 
 ```
 {
-  "device_type": "camera",
+  "device_type": "iot",
   "confidence": 0.9
 }
 ```
@@ -129,7 +130,7 @@ Respond in strict JSON only.
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:20:57.060515Z
+- timestamp: 2025-10-27T22:49:40.586112Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -153,14 +154,14 @@ Respond in strict JSON only.
 ```
 {
   "device_type": "unknown",
-  "confidence": 0.9
+  "confidence": 0.1
 }
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:20:57.745854Z
+- timestamp: 2025-10-27T22:49:41.219511Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -184,14 +185,14 @@ Respond in strict JSON only.
 ```
 {
   "device_type": "unknown",
-  "confidence": 0.9
+  "confidence": 0.7
 }
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:20:59.181744Z
+- timestamp: 2025-10-27T22:49:41.916575Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -215,14 +216,14 @@ Respond in strict JSON only.
 ```
 {
   "device_type": "unknown",
-  "confidence": 0.9
+  "confidence": 0.5
 }
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:21:04.349472Z
+- timestamp: 2025-10-27T22:49:42.889573Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -246,14 +247,14 @@ Respond in strict JSON only.
 ```
 {
   "device_type": "unknown",
-  "confidence": 0.9
+  "confidence": 0.1
 }
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:21:05.750010Z
+- timestamp: 2025-10-27T22:49:43.703663Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -277,14 +278,14 @@ Respond in strict JSON only.
 ```
 {
   "device_type": "unknown",
-  "confidence": 0.9
+  "confidence": 0.6
 }
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:21:06.756557Z
+- timestamp: 2025-10-27T22:49:44.729341Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -308,14 +309,14 @@ Respond in strict JSON only.
 ```
 {
   "device_type": "unknown",
-  "confidence": 0.9
+  "confidence": 0.2
 }
 ```
 
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:21:07.395772Z
+- timestamp: 2025-10-27T22:49:45.278194Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -346,7 +347,7 @@ Respond in strict JSON only.
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:21:08.367544Z
+- timestamp: 2025-10-27T22:49:45.784786Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -377,7 +378,7 @@ Respond in strict JSON only.
 ---
 
 ## device_type classification
-- timestamp: 2025-10-27T22:21:09.419601Z
+- timestamp: 2025-10-27T22:49:46.510436Z
 - temperature: 0.2
 - rationale: LLM used only when heuristics were weak (<0.6).
 
@@ -401,7 +402,7 @@ Respond in strict JSON only.
 ```
 {
   "device_type": "unknown",
-  "confidence": 0.9
+  "confidence": 0.8
 }
 ```
 
